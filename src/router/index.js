@@ -5,11 +5,12 @@ import User from '@/components/User'
 import Home from '@/components/Home'
 import Header from '@/components/Header'
 import Order from '@/components/Order'
+import Nav from '@/components/Nav'
 
 Vue.use(Router)
 const routes = [
   {
-    path: '/',
+    path: '/HelloWorld',
     name: 'HelloWorld',
     component: HelloWorld
   },
@@ -32,6 +33,11 @@ const routes = [
     path: '/order',
     name: 'order',
     component: Order
+  },
+  {
+    path: '/nav',
+    name: 'nav',
+    component: Nav
   }
 ]
 

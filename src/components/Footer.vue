@@ -1,5 +1,11 @@
 <template>
-    <div>footer</div>
+    <div>
+      <footer class="footer fixed-bottom">
+        <div class="container">
+          hhhhhhhhhhhhhhhhh
+        </div>
+      </footer>
+    </div>
 </template>
 
 <script>

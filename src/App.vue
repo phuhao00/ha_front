@@ -1,20 +1,18 @@
 <template>
   <div id="app">
-     <appHeader></appHeader>
+    <Nav></Nav>
     <router-view/>
+    <Footer></Footer>
   </div>
 </template>
-import appHeader from '@/components/Header'
-
 <script>
+import Nav from '@/components/Nav'
+import Footer from '@/components/Footer'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {Footer, Nav}
 }
 </script>
-
-<!--<script src="https://unpkg.com/element-ui/lib/index.js"></script>-->
-<!--<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">-->
-
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
