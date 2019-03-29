@@ -1,4 +1,11 @@
-# ha
+# vue -front demo
+
+## vue + vue-router + vuex + bootstrap + mock + mongodb and so on ,though now ,here is some ,futrue it will plenty of. come on guys , let's  cooperate .
+
+## make people who don't have enough Exp will get Exp through this project
+
+   *1.you can start your project here
+   *2.you can learn and communicate here
 
 > A Vue.js project
 
