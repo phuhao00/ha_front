@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="hello margin_TBRF">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -96,6 +96,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .margin_TBRF{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
 h1, h2 {
   font-weight: normal;
 }

@@ -1,14 +1,23 @@
 <template>
   <el-carousel :interval="5000" arrow="always">
-    <el-carousel-item v-for="item in 4" :key="item">
-      <h3>{{ item }}</h3>
+    <el-carousel-item v-for="item in imgelists" :key="item">
+      <img  v-bind:src="item.img" height="300" width="700"/>
     </el-carousel-item>
   </el-carousel>
 </template>
-
 <script>
 export default {
-  name: 'HomeCarousel'
+  name: 'HomeCarousel',
+  data: function () {
+    return {
+      imgelists: [
+        { img: require('../assets/1.jpg') },
+        { img: require('../assets/2.jpg') },
+        { img: require('../assets/3.jpg') },
+        { img: require('../assets/4.jpg') }
+      ]
+    }
+  }
 }
 </script>
 

@@ -1,20 +1,20 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top ">
-    <router-link to="home" >HA</router-link>
+    <router-link to="home" class="nav_bar">HA</router-link>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse " >
+    <div class="collapse navbar-collapse nav_menu " >
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <router-link to="HelloWorld" class="nav-link">HelloWorld</router-link>
+        <li class="nav-item active nav_item_dist">
+          <router-link to="home" class="nav-link">首页</router-link>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <li class="nav-item nav_item_dist">
+          <a class="nav-link" href="#">排行榜</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown nav_item_dist">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
+            安利墙
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Action</a>
@@ -49,6 +49,17 @@ export default {
 </script>
 
 <style scoped>
+  .nav_bar{
+    margin-left: 25rem;
+    margin-right: 2rem;
+  }
+  .nav_menu{
+    margin-left: 3rem;
+  }
+  .nav_item_dist{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
   .nav_bg_color{
     background-color: #90abff;
   }
