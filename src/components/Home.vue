@@ -4,13 +4,14 @@
 
 <script>
 import HomeCarousel from './HomeCarousel'
-// import HomeCard from './HomeCard'
 
 export default {
   name: 'Home',
   beforeCreate: function () {
   },
-  components: {HomeCarousel}
+  components: {
+    HomeCarousel
+  }
 }
 </script>
 

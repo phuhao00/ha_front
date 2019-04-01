@@ -66,6 +66,7 @@ export default {
   .head_logo{
     height: 3rem;
     width: 3rem;
+    border-radius: 25px;
   }
   .search_form{
     margin-right: 2rem;

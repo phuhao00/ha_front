@@ -1,7 +1,7 @@
-<template>
-  <el-carousel :interval="5000" arrow="always">
+<template >
+  <el-carousel :interval="5000" arrow="always" >
     <el-carousel-item v-for="item in imgelists" :key="item">
-      <img  v-bind:src="item.img" height="300" width="700"/>
+      <img  v-bind:src="item.img" height="414" width="1040"/>
     </el-carousel-item>
   </el-carousel>
 </template>
@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style scoped>
+  carousel_space{
+    width: 700rem;
+    height: 300rem;
+  }
   .el-carousel__item h3 {
     color: #475669;
     font-size: 18px;
